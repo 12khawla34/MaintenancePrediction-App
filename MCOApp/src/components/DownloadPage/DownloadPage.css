@@ -1,0 +1,59 @@
+body {
+    background: url(../../assets/ia.webp);
+
+}
+
+.containeer {
+    display: flex; 
+    width: 100%; 
+    height: 100vh;
+    margin-left: 10px;
+    position: absolute;
+    padding: 20px; 
+
+    
+}
+
+
+.table {
+    margin-top: 50px;
+    border: 1px solid rgb(255, 255, 255);
+    border-collapse: collapse; 
+    align-items: center;
+    background: transparent;
+    color: #fff;
+    backdrop-filter: blur(20px);
+
+}
+
+.table th, .table td {
+    border: 1px solid rgba(67,255,254,255); 
+    padding: 10px 5px 5px 5px; 
+}
+
+
+.btn {
+    width: 200px;
+    height: 45px;
+    background: rgba(67,255,254,255);
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(138, 169, 255, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 700;
+    margin-top: 230px;
+}
+
+.no-maintenance {
+    color: #18f34b; 
+    font-weight: 700;
+
+}
+
+.need-maintenance {
+    color: #ff243a;
+    font-weight: 700;
+}
